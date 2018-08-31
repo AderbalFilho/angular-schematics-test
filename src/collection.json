@@ -1,0 +1,16 @@
+{
+    "schematics": {
+      "default": {
+        "aliases": [ "def" ],
+        "factory": "./default",
+        "description": "Generates a default component",
+        "schema": "./default/schema.json"
+      },
+      "other": {
+        "aliases": [ "oth" ],
+        "factory": "./other",
+        "description": "Generates an other component",
+        "schema": "./other/schema.json"
+      }
+    }
+}
